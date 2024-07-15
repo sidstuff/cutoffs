@@ -14,7 +14,7 @@ Now let the scores be $x$, and the y-value at a given score be $f(x)$.
 
 When you go from $x_1$ to $x_2$ (ssuming all scores in between have zero y-value), $R$ decreases by $f(x_2)$ and $L$ increases by $f(x_1)$. Thus $R-L$ decreases by $f(x_2)+f(x_1)$.
 
-$R-L$ for the leftmost score is simply the sum of all the y-values, and we can use the above formula to easily compute it for all scores.
+$R-L$ for the leftmost score is simply the sum of all the others' y-values, and we can use the above formula to easily compute it for all scores.
 
 ## The Survey
 
